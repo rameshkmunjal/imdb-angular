@@ -1,0 +1,15 @@
+#header{
+    background:rgb(4, 17, 0);
+    text-align:center;
+    padding:10px 0px 20px 0px;
+    color:rgb(200, 200, 150);
+}
+
+
+
+#footer{
+    background:rgb(63,102, 87);
+    text-align:center;
+    padding:10px 0px;
+    color:white;
+}

@@ -1,0 +1,23 @@
+<div class="container" id="singleMovieContainer">
+    <div class="row" *ngIf="currentMovie">
+      <div class="col-md-12">
+       <p id="currentMovieTitle"> <span>{{currentMovie.Title}}</span><span id="currentMovieYear">({{currentMovie.Year}})</span><span id="rating">{{currentMovie.imdbRating}}</span> </p>      
+       <p> <span style="margin-right:20px;"><b>Type:</b>{{currentMovie.Type}}</span><span style="margin-right:20px;"><b>Language:</b>{{currentMovie.Language}}</span><span><b>Runtime:</b>{{currentMovie.Runtime}}</span> </p>      
+       <p><b>Plot:</b> {{currentMovie.Plot}} </p>      
+       <p><span><b>Genre : </b>{{currentMovie.Genre}}</span></p>
+       <p><span><b>Director : </b>{{currentMovie.Director}}</span></p>
+       <p><span><b>Actors : </b>{{currentMovie.Actors}}</span></p>
+       <p><span><b>Writer : </b>{{currentMovie.Writer}}</span></p>
+       <p><span><b>Production: </b>{{currentMovie.Production}}</span></p>
+       <p><span><b>Released : </b>{{currentMovie.Released}}</span></p>
+       <p><span><b>ID : </b>{{currentMovie.imdbID}}</span></p>
+       <p style="text-align:center"><button class="btn"><a href="home">Go Back</a></button></p>
+      </div>
+    </div>  
+  </div>
+
+  
+    
+    	
+    
+    

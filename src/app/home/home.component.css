@@ -1,0 +1,18 @@
+.btn{
+    background:rgb(4, 17, 0);
+    color:rgb(200,200,150);
+    font-family:helvetica;
+    font-weight:bold;
+    padding:5px 20px;
+}
+#contents{
+    background:rgb(200, 240, 190);
+    text-align:center;
+    padding:10px 0px 20px 0px;
+    height:auto;
+    color:rgb(20,20,20)
+}
+.panel-heading{
+    height:80px;
+    padding-top:20px;
+}

@@ -1,0 +1,19 @@
+<div class="container"id="contents">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row"*ngIf="allMovies.length>0">
+       <div *ngFor="let movie of allMovies" class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+         <div class="panel panel-default">
+           <div class="panel-heading"><b>{{movie.Title | uppercase}}</b></div>
+           <div class="panel-body">
+            <img class="moviePic" [src]="movie.Poster" width="200" height="200" >
+           </div>
+           <div class="panel-footer">
+             <p> <a [routerLink]="['/singleMovie', movie.imdbID]" class="btn">View</a></p>
+           </div>
+         </div>
+       </div>
+      </div> 
+    </div>
+  </div>
+</div>
